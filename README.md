@@ -19,4 +19,15 @@
   <a href="README.pt-BR.md">
     <img src="https://img.shields.io/badge/Readme-pt--BR | en--US-red">
   </a>
-</p> 
+</p>
+
+
+## Introduction
+Maybe like me before, you know how to program but you don't know how to use trigonometric functions.
+
+Therefore, this repository is focused on illustrating with animations, and if this is not possible,
+just showing the code may be enough to understand the concepts.
+
+Otherwise, if you have any questions, don't forget to open an issue.
+
+**Enjoy and have good studies!**
