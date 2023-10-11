@@ -31,3 +31,11 @@ just showing the code may be enough to understand the concepts.
 Otherwise, if you have any questions, don't forget to open an issue.
 
 **Enjoy and have good studies!**
+
+
+## Run all drawings in one time
+It's your first time here? You might want to look at all available drawings:
+
+```
+python3 all.py
+```

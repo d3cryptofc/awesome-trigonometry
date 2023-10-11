@@ -30,3 +30,11 @@ Portanto, este repositório é focado em ilustrar com animações, e se isso nã
 Caso contrário, se você tiver alguma dúvida, não hesite em abrir uma issue.
 
 **Aproveite e tenha bons estudos!**
+
+
+## Rode todos os desenhos de uma vez só
+Esta é a sua primeira vez por aqui? Você pode querer olhar todos os desenhos disponíveis:
+
+```
+python3 all.py
+```
