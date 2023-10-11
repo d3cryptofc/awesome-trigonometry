@@ -38,3 +38,20 @@ Esta é a sua primeira vez por aqui? Você pode querer olhar todos os desenhos d
 ```
 python3 all.py
 ```
+
+
+## Desenhos
+
+### Colorful Filled Circle
+
+<img align="right" width="200" src="https://i.imgur.com/VqmoQXr.gif">
+
+Desenhando um círculo e preenchendo com segmentos coloridos.
+
+1. Desenha cruz dos eixos.
+2. Desenha a circunferencia do círculo.
+3. Desenha segmentos coloridos no interior do circulo, resultando em um preenchimento colorido.
+
+```
+python3 colorful_filled_circle.py
+```

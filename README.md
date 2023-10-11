@@ -39,3 +39,19 @@ It's your first time here? You might want to look at all available drawings:
 ```
 python3 all.py
 ```
+
+## Drawings
+
+### Colorful Filled Circle
+
+<img align="right" width="200" src="https://i.imgur.com/VqmoQXr.gif">
+
+Drawing a circle and filling it with colorful segments.
+
+1. Draw the cross of the axes.
+2. Draw the circumference of the circle.
+3. Draw colored segments inside the circle, resulting in a colored fill.
+
+```
+python3 colorful_filled_circle.py
+```
