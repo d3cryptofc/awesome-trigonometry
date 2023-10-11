@@ -33,3 +33,36 @@ def segment(turtle: Turtle,
     turtle.setposition(end)
     if show_dots:
         turtle.dot()
+
+
+def cross(turtle: Turtle,
+          distance: Union[int, float],
+          show_dots: Optional[bool] = True):
+    """
+    Draw a centered cross.
+
+    Parameters:
+        turtle:
+            The turtle instance.
+
+        distance:
+            Distance from the center.
+
+        show_dots (default: True):
+            Whether dots should be drawn at the two points.
+    """
+    # Drawing X axis segment. 
+    segment(
+        turtle=turtle,
+        start=(-distance, 0),
+        end=(distance, 0),
+        show_dots=show_dots
+    )
+
+    # Drawing Y axis segment.
+    segment(
+        turtle=turtle,
+        start=(0, -distance),
+        end=(0, distance),
+        show_dots=show_dots
+    )
