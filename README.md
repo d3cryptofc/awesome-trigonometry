@@ -42,6 +42,20 @@ python3 all.py
 
 ## Drawings
 
+### Pythagorean Theorem
+
+<img align="right" width="200" src="https://i.imgur.com/yBg5Uhh.gif">
+
+Pythagorean theorem illustrated.
+
+1. Draw axes cross.
+2. Draw a right-angled triangle of random size.
+3. Draw the square of all sides of the triangle.
+
+```
+python3 pythagorean_theorem.py
+```
+
 ### Colorful Filled Circle
 
 <img align="right" width="200" src="https://i.imgur.com/VqmoQXr.gif">

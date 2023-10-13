@@ -42,6 +42,20 @@ python3 all.py
 
 ## Desenhos
 
+### Pythagorean Theorem
+
+<img align="right" width="200" src="https://i.imgur.com/yBg5Uhh.gif">
+
+Teorema de pitágoras ilustrado.
+
+1. Desenha cruz dos eixos.
+2. Desenha um triângulo retângulo de tamanho aleatório.
+3. Desenha o quadrado de todos os lados do triângulo.
+
+```
+python3 pythagorean_theorem.py
+```
+
 ### Colorful Filled Circle
 
 <img align="right" width="200" src="https://i.imgur.com/VqmoQXr.gif">
