@@ -1,6 +1,6 @@
 import math
 from turtle import Turtle
-from typing import Union, Tuple, Optional
+from typing import Union, List, Tuple, Optional
 
 
 def segment(turtle: Turtle,
@@ -102,3 +102,38 @@ def circle(turtle: Turtle, radius: Union[int, float]):
 
         # Setting the pen position.
         turtle.setposition(x, y)
+
+
+def segment_chain(turtle: Turtle,
+                  positions: List[Tuple[Union[int, float], Union[int, float]]],
+                  show_dots: Optional[bool] = True):
+    """
+    Draw a chain of segments.
+
+    Parameters:
+        turtle:
+            The turtle instance.
+
+        positions:
+            A list of positions (tuples containing x and y axies).
+
+        show_dots (default: True):
+            Whether dots should be drawn at the two points.
+    """
+    # Ensures the pen is up.
+    turtle.penup()
+
+    # Iterating the list of postions.
+    for x, y in positions:
+        # Setting the position.
+        turtle.setposition(x, y)
+
+        # Draws a dot if the `show_dots` parameter is True.
+        if show_dots:
+            turtle.dot()
+
+        # Guarantees that it will start drawing from the second position.
+        turtle.pendown()
+
+        # Divide the drawing in steps.
+        yield
